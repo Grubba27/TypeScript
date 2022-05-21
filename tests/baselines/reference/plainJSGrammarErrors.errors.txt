@@ -64,7 +64,7 @@ tests/cases/conformance/salsa/plainJSGrammarErrors.js(100,3): error TS1200: Line
 tests/cases/conformance/salsa/plainJSGrammarErrors.js(102,4): error TS1358: Tagged template expressions are not permitted in an optional chain.
 tests/cases/conformance/salsa/plainJSGrammarErrors.js(104,6): error TS1171: A comma expression is not allowed in a computed property name.
 tests/cases/conformance/salsa/plainJSGrammarErrors.js(105,5): error TS18016: Private identifiers are not allowed outside class bodies.
-tests/cases/conformance/salsa/plainJSGrammarErrors.js(106,5): error TS1042: 'export' modifier cannot be used here.
+tests/cases/conformance/salsa/plainJSGrammarErrors.js(106,5): error TS1184: Modifiers cannot appear here.
 tests/cases/conformance/salsa/plainJSGrammarErrors.js(108,25): error TS1162: An object member cannot be declared optional.
 tests/cases/conformance/salsa/plainJSGrammarErrors.js(109,6): error TS1162: An object member cannot be declared optional.
 tests/cases/conformance/salsa/plainJSGrammarErrors.js(109,6): error TS8009: The '?' modifier can only be used in TypeScript files.
@@ -342,7 +342,7 @@ tests/cases/conformance/salsa/plainJSGrammarErrors.js(205,36): error TS1325: Arg
 !!! error TS18016: Private identifiers are not allowed outside class bodies.
         export cantExportProperties: 4,
         ~~~~~~
-!!! error TS1042: 'export' modifier cannot be used here.
+!!! error TS1184: Modifiers cannot appear here.
         // TODO: See what the existing JS error is like for these
         cantHaveQuestionMark?: 1,
                             ~
